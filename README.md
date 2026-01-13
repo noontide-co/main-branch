@@ -28,7 +28,22 @@ Check `research/` and `decisions/` folders for output.
 
 ## Templates
 
+### CLAUDE.md Template
 - `templates/CLAUDE.md.template` - Starter CLAUDE.md for your projects
+
+### Business OS Scaffold
+Copy `templates/core/` to start a new project with the paper trail structure:
+
+```
+templates/core/
+├── CLAUDE.md        → The brain (business context for Claude)
+├── research/        → AI research, captured with sources
+├── decisions/       → Business decisions with reasoning
+├── processes/       → Recurring workflows, refined over time
+└── solved/          → Problems figured out (don't re-solve)
+```
+
+Each folder has a README explaining what goes there.
 
 ## The Philosophy
 
